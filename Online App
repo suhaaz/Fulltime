@@ -1,0 +1,20 @@
+Start Program
+int Count=1,i=1, CustomerID
+float TotalPrice
+while i<= 100 do
+read CustomerID, TotalPrice
+if TotalPrice >= 30 then
+Print "You got 10 RO Discount"
+else
+Print "Sorry. No Discounts Available"
+End if 
+if TotalPrice >= 30 then
+TotalPrice = TotalPrice -10
+Print TotalPrice
+Else 
+Print "No change in total price"
+End if 
+i=i+1;
+end While
+Print "Total Price After Discount"
+End program
